@@ -10,6 +10,104 @@
     <br />
     <br />
     <br />
+    <div class="certs">
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-mdb-toggle="modal"
+        data-mdb-target="#exampleModal"
+      >
+        <h3>Certifications</h3>
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Certificates</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-mdb-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- javascript -->
+            <div class="modal-body">
+              <a href="https://www.youracclaim.com/badges/07383ef1-eb67-4677-ba8b-864c527b74fe/public_url"
+                target="_blank" >
+                <img src="https://images.youracclaim.com/size/220x220/images/0c84aca1-2775-45d0-a6d0-9995d0779b38/MTA-Introduction_to_Programming_Using_JavaScript.png"
+                  class="hover-zoom"
+                  width="200px"
+                  alt=""
+                />
+              </a>
+              <!-- html & css -->
+              <a href="https://www.youracclaim.com/badges/e9cc788b-1595-4941-9141-0d8fb3a24bc3/public_url"
+                target="_blank" >
+                <img src="https://images.youracclaim.com/size/220x220/images/9bc1696c-a565-4faf-8e06-3e24d62a00c5/MTA-Introduction-to-Programming-using-HTML-and-CSS-2019.png"
+                  class="hover-zoom"
+                  width="200px"
+                  alt=""
+                />
+              </a>
+              <!-- asp.Net -->
+              <a href="https://www.youracclaim.com/org/quickstart/badge/build-web-apis-using-asp-net.1"
+                target="_blank" >
+                <img src="https://images.youracclaim.com/size/680x680/images/9af01f17-3b97-405b-a607-2062baa0f47c/d36985d219044396be0c68de9f6d70ad-01.png"
+                  class="hover-zoom"
+                  width="200px"
+                  alt=""
+                />
+              </a>
+              <!-- bootstrap -->
+              <a href="https://www.youracclaim.com/org/quickstart/badge/bootstrap-4-exploring-new-features.1"
+                target="_blank" >
+                <img src="https://images.youracclaim.com/size/680x680/images/086a0344-813a-4b2e-872d-8cb49237037a/2a4ac60cbad44f5c96694ce6df9daa70-01.png"
+                  class="hover-zoom"
+                  width="200px"
+                  alt=""
+                />
+              </a>
+              <!-- vue.js -->
+              <a href="https://www.youracclaim.com/org/quickstart/badge/getting-started-with-vue-js.1"
+                target="_blank" >
+                <img src="https://images.youracclaim.com/size/680x680/images/2100e37b-6bb5-49e2-a570-5b29fda85b3e/54a371fb922f4bc1adadae0802082b4e-01.png"
+                  class="hover-zoom"
+                  width="200px"
+                  alt=""
+                />
+              </a>
+              <!-- angular.js -->
+              <a href="https://www.youracclaim.com/org/quickstart/badge/angular-fundamentals.1"
+                target="_blank" >
+                <img src="https://images.youracclaim.com/size/680x680/images/d7585c5e-4f9b-42f8-a101-6bac7ecc5715/3f9b889c6f03492280263d47ff068c00-01.png"
+                  class="hover-zoom"
+                  width="200px"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
     <div class="container">
       <h1 class="text-center display-4">Features & Services</h1>
       <br />
@@ -140,5 +238,11 @@ main {
 }
 .img-content {
   letter-spacing: 32px !important;
+}
+.certs {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.3em !important;
 }
 </style>

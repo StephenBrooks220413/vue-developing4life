@@ -2,6 +2,11 @@
   <div class="container text-center">
     <br />
     <h1 class="text-center display-4">Building Your WebSite</h1>
+    <h3>
+      <a href="https://mdbootstrap.com/" class="text-shadow" target="_blank">
+        Using Material Design & Bootstrap5
+      </a>
+    </h3>
     <div class="row">
       <div class="col-md-4 hover-shadow">
         <h3>CLI Plugins <i class="fas fa-puzzle-piece"></i></h3>
@@ -173,5 +178,9 @@ a {
 }
 .dev {
   max-height: 470px;
+}
+.text-shadow {
+  text-shadow: 14px 11px 10px grey;
+  opacity: 0.6;
 }
 </style>

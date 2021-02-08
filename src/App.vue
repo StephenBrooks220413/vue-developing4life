@@ -73,10 +73,10 @@
                 <li>
                   <a
                     class="dropdown-item"
-                    href="https://www.yelp.com"
+                    href="https://www.youracclaim.com/users/stephenallenbrooks"
                     target="_blank"
                   >
-                    Yelp
+                    Acclaim
                   </a>
                 </li>
               </ul>
@@ -85,7 +85,7 @@
           <!-- Left links -->
 
           <!-- Search form -->
-          <form class="d-flex input-group w-auto">
+          <!-- <form class="d-flex input-group w-auto">
             <input
               type="search"
               class="form-control"
@@ -99,7 +99,7 @@
             >
               Search
             </button>
-          </form>
+          </form> -->
         </div>
         <!-- Collapsible wrapper -->
       </div>
