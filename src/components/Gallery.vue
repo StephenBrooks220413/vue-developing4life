@@ -111,9 +111,6 @@ li {
 a {
   color: #42b983;
 }
-.dev {
-  max-height: 610px;
-}
 .img {
   max-width: 750px;
   margin-left: auto;
