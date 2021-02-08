@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <main class="jumbotron img-fluid bg-image text-center">
+    <main class="jumbotron text-center">
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
         <div class="d-flex justify-content-center align-items-center h-100">
           <h1 class="display-4 text-white mb-0">Vue.js Developer</h1>
