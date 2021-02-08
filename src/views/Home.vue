@@ -128,8 +128,8 @@ main {
   -o-background-size: cover;
   background-size: cover;
   height: auto;
-  padding-top: 30%;
-  padding-bottom: 30%;
+  padding-top: 45%;
+  padding-bottom: 45%;
   width: 100%;
 }
 
