@@ -24,7 +24,7 @@
         <div class="carousel-item active">
           <img
             src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-            class="d-block w-75 img"
+            class="d-block w-100 img"
             alt="..."
           />
           <div class="carousel-caption d-none d-md-block">
@@ -36,7 +36,7 @@
         <div class="carousel-item">
           <img
             src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
-            class="d-block w-75 img"
+            class="d-block w-100 img"
             alt="..."
           />
           <div class="carousel-caption d-none d-md-block">
@@ -48,7 +48,7 @@
         <div class="carousel-item">
           <img
             src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-            class="d-block w-75 img"
+            class="d-block w-100 img"
             alt="..."
           />
           <div class="carousel-caption d-none d-md-block">
@@ -110,13 +110,5 @@ li {
 }
 a {
   color: #42b983;
-}
-.dev {
-  max-height: 470px;
-}
-.img {
-  max-width: 750px;
-  margin-left: auto;
-  margin-right: auto;
 }
 </style>
