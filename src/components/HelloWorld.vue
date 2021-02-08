@@ -1,12 +1,8 @@
 <template>
-  <div class="container text-center">
+  <div class="container block text-center">
     <br />
     <h1 class="text-center display-4">Building Your WebSite</h1>
-    <h3>
-      <a href="https://mdbootstrap.com/" class="text-shadow" target="_blank">
-        Using Material Design & Bootstrap5
-      </a>
-    </h3>
+    <br />
     <div class="row">
       <div class="col-md-4 hover-shadow">
         <h3>CLI Plugins <i class="fas fa-puzzle-piece"></i></h3>
@@ -130,6 +126,12 @@
           </li>
         </ul>
       </div>
+      <br />
+      <h3>
+        <a href="https://mdbootstrap.com/" class="text-shadow" target="_blank">
+          Using Material Design & Bootstrap5
+        </a>
+      </h3>
     </div>
     <br />
     <br />
@@ -182,5 +184,18 @@ a {
 .text-shadow {
   text-shadow: 14px 11px 10px grey;
   opacity: 0.6;
+}
+.block {
+  background: url(https://www.outputmessenger.com/wp-content/themes/outputmessenger/images/header_bg.png)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white !important;
 }
 </style>
